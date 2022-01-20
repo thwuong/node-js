@@ -6,7 +6,7 @@ const app = express();
 const port = 3000
 
 // logger khi save code 
-app.use(morgan('combined'));
+// app.use(morgan('combined'));
 
 // template engines
 app.engine('hbs',handlebars.engine({extname: ".hbs"}));
