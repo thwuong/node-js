@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --inspect src/index.js",
-    "watch" : "node-sass -w src/resources/scss -o src/public/css"
+    "watch": "node-sass -w src/resources/scss -o src/public/css"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,11 @@
   "homepage": "https://github.com/thwuong/node-js#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "express-handlebars": "^6.0.2"
+    "express-handlebars": "^6.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.2",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-slug-generator": "^1.0.4"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
